@@ -1,0 +1,56 @@
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.bg-grey{
+    background-color: #121212;
+    color: white;
+}
+
+button{
+    cursor: pointer;
+}
+
+.h1{
+    margin: 8px;
+    font-size: 26px;
+}
+
+/* ::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 20%;
+  } */
+  
+  /*Track */
+  ::-webkit-scrollbar-track {
+    background: #000000;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #242424;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #363636;
+  }
+  
+  /* Optionally, you can style the scrollbar corners */
+  ::-webkit-scrollbar-corner {
+    background: #000000;
+  } 
